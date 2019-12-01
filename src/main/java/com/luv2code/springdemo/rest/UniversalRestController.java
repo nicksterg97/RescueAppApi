@@ -144,7 +144,7 @@ public class UniversalRestController {
 			}
 				
 			
-			//add mapping for POST/reports
+			//add mapping for POST/reports/add
 			@RequestMapping(method=RequestMethod.POST,value="/reports/add")
 			public void addReports(@RequestBody Reports reports){
 						

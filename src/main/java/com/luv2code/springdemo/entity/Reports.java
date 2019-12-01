@@ -17,10 +17,10 @@ public class Reports {
 	private int report_id;
 	
 	@Column(name="AED_id")
-	private String AED_id;
+	private int AED_id;
 	
 	@Column(name="user_id")
-	private String user_id;
+	private int user_id;
 	
 	@Column(name="status")
 	private String status;
@@ -44,22 +44,22 @@ public class Reports {
 	}
 
 
-	public String getAED_id() {
+	public int getAED_id() {
 		return AED_id;
 	}
 
 
-	public void setAED_id(String aED_id) {
-		AED_id = aED_id;
+	public void setAED_id(int AED_id) {
+		this.AED_id = AED_id;
 	}
 
 
-	public String getUser_id() {
+	public int getUser_id() {
 		return user_id;
 	}
 
 
-	public void setUser_id(String user_id) {
+	public void setUser_id(int user_id) {
 		this.user_id = user_id;
 	}
 
